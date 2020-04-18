@@ -1,0 +1,30 @@
+{
+  "name": "escape-room-puzzles",
+  "version": "1.0.0",
+  "description": "math puzzle and pattern recognition puzzle for escape room in NYU ITP Spring 2020",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "http-server ./ -p $PORT"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YitingLiu97/escape-room-puzzles.git"
+  },
+  "keywords": [
+    "escape",
+    "room",
+    "zoom",
+    "puzzles",
+    "storyline"
+  ],
+  "author": "Yiting Liu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YitingLiu97/escape-room-puzzles/issues"
+  },
+  "homepage": "https://github.com/YitingLiu97/escape-room-puzzles#readme",
+  "dependencies": {
+    "http-server": "^0.12.1"
+  }
+}

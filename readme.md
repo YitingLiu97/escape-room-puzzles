@@ -2,10 +2,11 @@
 # Escape Room Project
 <!-- A one sentence description of the project or assignment -->
 This project is a group project for Escape Room Spring 2020. I created two puzzles: math puzzle and pattern recoginition puzzle to fit in the story line. 
-[Play it here.](https://yitingliu97-escape-room-puzzles.glitch.me/)
+[Play it here.](https://yitingliu97-escape-room-puzzles-1.glitch.me/)
 
 More information will be updated soon. 
 
+Find our my process [here](https://yitingliu97.wordpress.com/2020/04/20/escape-room-final-prototype/)
 
 <!-- It is good practice to add an about or summary -->
 ## About

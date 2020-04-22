@@ -21,7 +21,7 @@
             <p> To do:
                 <ol>
                     <li>Correct the chemical component in the report. </li>
-                    <li>Report back to the gamemaster for further instruction. </li>
+                    <li>Report back to the AI for further instruction. </li>
                 </ol>
             </p>
         </div>
@@ -34,13 +34,19 @@
     <div id="mathPuzzle">
         <div class="notes">
             <h1>Chemical Component Report</h1>
-            <p>The professor is working on the component with the most carbons.</p>
-            <p>The student researcher before you made a careless mistake while logging the component information of the
+            <p>The professor is working on the component with the most carbons.
+                The student researcher before you made a careless mistake while logging the component information of the
                 chemical. </p>
-            <p> Find out the one with the most carbons and log the correct formula for your task.
+                <br>
+                <p >You need to find out the component with the most carbons and then log the correct component formula in the input box. </p>
+                
+                <br>
+                <p>Good luck!</p>
+            
+            <!-- <p> Find out the one with the most carbons and log the correct formula for your task. -->
             </p>
             <br>
-            <p>What does the color stand for:
+            <!-- <p>What does the color stand for:
                 <ul>
                     <li>Gray=Carbon</li>
                     <li>White=Hydrogen</li>
@@ -48,35 +54,45 @@
                     <li>Green=Fluorine</li>
                     <li>Blue=Nitrogen</li>
                 </ul>
-            </p>
+            </p> -->
+
+        </div>
+
+        <div class="container">
+            <img id="chemicalLayout"src="assets/chemicalLayout.png" alt="">
 
         </div>
 
         <div class="container">
             <div class="component">
-                <img src="assets/Didesmethylcitalopram.png" alt="3d chemical structure of Didesmethylcitalopram.">
+                <img src="assets/Didesmethylcitalopram copy.png" alt="3d chemical structure of Didesmethylcitalopram.">
                 <!-- <a href="https://bit.ly/3alwVXU">Chemical One: Didesmethylcitalopram</a> -->
-                <a href="#">Chemical One: Didesmethylcitalopram</a>
+                <a href="#">Chemical One</a>
+                <!--  Didesmethylcitalopram -->
 
             </div>
 
             <div class="component">
-                <img src="assets/Desmethylcitalopram.png" alt="3d chemical structure of Desmethylcitalopram.">
+                <img src="assets/Desmethylcitalopram copy.png" alt="3d chemical structure of Desmethylcitalopram.">
 
                 <!-- <a href="https://bit.ly/3ew5w97">Chemical Two: Desmethylcitalopram</a> -->
-                <a href="#">Chemical Two: Desmethylcitalopram</a>
+                <a href="#">Chemical Two</a>
+                <!-- : Desmethylcitalopra -->
 
             </div>
             <div class="component">
                 <img src="assets/Citalopram.png" alt="3d chemical structure of Citalopram.">
 
                 <!-- <a href="https://bit.ly/2ymjt8Y">Chemical Three: Citalopram</a> -->
-                <a href="#">Chemical Three: Citalopram</a>
+                <a href="#">Chemical Three</a>
+                <!-- : Citalopram -->
 
             </div>
         </div>
-
-        <div id="wrongChemical" >
+        <div class="container">
+        <p>The previous student thought this is the correct component for the chemical:</p>
+    </div>
+     <div id="wrongChemical" >
             <p>C18H2FNO</p>
             <img  onclick="showNote()" src="https://image.flaticon.com/icons/svg/818/818400.svg" alt="information icon">
             

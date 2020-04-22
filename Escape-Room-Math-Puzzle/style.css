@@ -4,38 +4,38 @@
 }
 
 body {
-    font-family: 'Courier New', Courier, monospace;
-    font-size: medium;
-    padding: 5%;
+    /* font-family: ; */
+    font-size: large;
+    padding: 2% 5%;
     text-align: center;
-    /* position: relative; */
 }
 
 h1 {
     padding-bottom: 3%;
-    text-align: center;
     font-size: xx-large;
 }
 
 p{
-    font-size: small;
+    font-size: large;
 }
 #mathPuzzle {
    display: none;
 }
 
+
 ol li {
-    list-style-type: number;
+    list-style-type: square;
     margin-top: 10px;
     margin-left: 50px;
-    font-size: small;
+   text-align: left;
     color: blue;
 }
 
 ul li{
     list-style: none;
-    text-align: center;
-    font-size: small;
+    /* text-align: left; */
+    color: blue;
+    margin-top: 10px;
 }
 
 
@@ -157,6 +157,12 @@ ul li{
     color: black;
 }
 
+#chemicalLayout{
+    width: 60%;
+    margin: auto;
+    position: relative;
+
+}
 @media only screen and (max-width: 600px) {
     body {
         padding: 3% 20%;
@@ -191,5 +197,8 @@ ul li{
     }
     #background{
         width: 300px;
+    }
+    #chemicalLayout{
+        width: 400px;
     }
 }

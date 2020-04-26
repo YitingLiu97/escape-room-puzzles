@@ -14,7 +14,7 @@
     <div id="mathPuzzleIntro">
         <div id="background">
             <p>
-                Welcome to your new job as a research assistant for the professor. The researcher before you left in a
+                Welcome to your new job as a research assistant for Professor SOIR. The researcher before you left in a
                 hurry that he couldn't finish the document he started.
                 So your task for today is to correct one of the documents.</p>
             <br>
@@ -34,15 +34,14 @@
     <div id="mathPuzzle">
         <div class="notes">
             <h1>Chemical Component Report</h1>
-            <p>The professor is working on the component with the most carbons.
+            <p>Professor SOIR is working on the component with the most carbons.
                 The student researcher before you made a careless mistake while logging the component information of the
-                chemical. </p>
-                <br>
-                <p >You need to find out the component with the most carbons and then log the correct component formula in the input box. </p>
-                
-                <br>
-                <p>Good luck!</p>
-            
+                chemical. You need to find out the component with the most carbons and then log the correct component formula in
+                the input box. </p>
+
+            <br>
+            <p>Good luck!</p>
+
             <!-- <p> Find out the one with the most carbons and log the correct formula for your task. -->
             </p>
             <br>
@@ -59,7 +58,8 @@
         </div>
 
         <div class="container">
-            <img id="chemicalLayout"src="assets/chemicalLayout.png" alt="">
+            <img id="chemicalLayout" src="assets/chemicalLayout.png" alt="">
+            
 
         </div>
 
@@ -90,24 +90,24 @@
             </div>
         </div>
         <div class="container">
-        <p>The previous student thought this is the correct component for the chemical:</p>
-    </div>
-     <div id="wrongChemical" >
+            <p>The previous student thought this is the correct component for the chemical:</p>
+        </div>
+        <div id="wrongChemical">
             <p>C18H2FNO</p>
-            <img  onclick="showNote()" src="https://image.flaticon.com/icons/svg/818/818400.svg" alt="information icon">
-            
+            <img onclick="showNote()" src="https://image.flaticon.com/icons/svg/818/818400.svg" alt="information icon">
+
 
         </div>
 
         <div id="input">
             <input type="text" id="userInput" placeholder="Component?">
-            <button id="userSubmit" type="submit" onclick="showResult()" >sumbit</button>
+            <button id="userSubmit" type="submit" onclick="showResult()">sumbit</button>
         </div>
     </div>
 
     <script>
 
-let counter=0;
+        let counter = 0;
 
         function showResult() {
             let userInput = document.getElementById("userInput").value;
@@ -118,17 +118,17 @@ let counter=0;
                 counter++;
                 alert("What's the correct component?");
 
-                if(counter>=3){
+                if (counter >= 3) {
                     alert("Clear your input box");
-                    document.getElementById("userInput").placeholder="C?H?F?N?O?";
-                    counter=0;
+                    document.getElementById("userInput").placeholder = "C?H?F?N?O?";
+                    counter = 0;
                 }
             }
 
         }
 
         function showNote() {
-            let note = "Note from the professor:"+"\n\r"+"What a careless mistake! I hope you do a better job than him!"
+            let note = "Note from Professor SOIR:" + "\n\r" + "What a careless mistake! I hope you do a better job than him!"
             // let instruction = "gray=Carbon, white=Hydrogen, red=Oxygen, green=Fluorine, blue=nitrogen"
             return alert(note);
         }

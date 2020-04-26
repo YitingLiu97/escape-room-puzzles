@@ -45,12 +45,22 @@ ul li{
     /* margin:10%; */
 
 }
-#background {
+#background p {
     text-align: left;
     width: 600px;
     height: auto;
     margin: 3%;
 }
+
+p{
+    text-align: center;
+    width: 80%;
+    /* padding: 20%; */
+    height: auto;
+    /* margin: 3%; */
+    margin: auto;
+}
+
 
 #proceed {
     border: none;
@@ -79,7 +89,7 @@ ul li{
     margin: 2%;
     padding: 1%;
     text-align: center;
-    font-size: smaller;
+    font-size: medium;
 }
 
 .component a {
